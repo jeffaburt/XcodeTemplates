@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
+	<key>ChooserOnly</key>
+	<true/>
+	<key>Description</key>
+	<string>A Kiwi unit test file to test a classes functionality.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Description</key>
+			<string>Name of class you want to test</string>
+			<key>Identifier</key>
+			<string>testClassName</string>
+			<key>Name</key>
+			<string>Class name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>class</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_testClassName:identifier___Spec</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>A Kiwi Unit Test File</string>
+</dict>
+</plist>
