@@ -10,8 +10,17 @@
 
 SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
 
-		
 describe(@"___VARIABLE_testClassName:identifier___", ^{
+    __block ___VARIABLE_testClassName:identifier___ *object;
+    
+    beforeEach(^{
+        object = [___VARIABLE_testClassName:identifier___ new];
     });
-	
+    
+    describe(@"", ^{
+        
+    });
+    
+});
+
 SPEC_END
