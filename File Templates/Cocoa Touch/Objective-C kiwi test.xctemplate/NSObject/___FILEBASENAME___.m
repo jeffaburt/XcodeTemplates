@@ -11,8 +11,8 @@
 
 SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
 
-    describe(@"___VARIABLE_testClassName:identifier___", ^{
 		
+describe(@"___VARIABLE_testClassName:identifier___", ^{
     });
 	
 SPEC_END
