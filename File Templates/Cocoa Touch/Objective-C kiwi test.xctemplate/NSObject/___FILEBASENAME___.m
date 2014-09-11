@@ -6,7 +6,6 @@
 //___COPYRIGHT___
 //
 
-#import <Kiwi/Kiwi.h>
 #import "___VARIABLE_testClassName:identifier___.h"
 
 SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
